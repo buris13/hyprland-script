@@ -1,2 +1,0 @@
-xdg-mime default thunar.desktop inode/directory
-xdg-mime default thunar.desktop application/x-wayland-gnome-saved-search
