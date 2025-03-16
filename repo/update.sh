@@ -34,7 +34,7 @@ EOF
 
 Update-repo() {
   for r in "${repo[@]}"; do
-    cd "${r}" && git pull && cd ..
+  cd "${r}" && echo ${r} && git pull && printf "\n" && cd ..
   done
 }
 
